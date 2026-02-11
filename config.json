@@ -1,0 +1,33 @@
+{
+  "image": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDN6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eGZ6eA/3o7TKSjRrfIPjeiVyM/giphy.gif",
+  "app_icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+  "app_name": "News Reader",
+  "title": "Breaking News Alert",
+  "subtitle": "Check out the latest updates happening right now!",
+  "button_title": "Read More",
+  "button_url": "https://www.google.com",
+  "unlock_delay": 3,
+  "daily_limit": 5,
+  "schedules": [
+    {
+      "comment": "1. Single time daily",
+      "times": ["08:00"],
+      "days": ["daily"]
+    },
+    {
+      "comment": "2. Single time with multiple days",
+      "times": ["10:00"],
+      "days": ["monday", "wednesday", "friday"]
+    },
+    {
+      "comment": "3. Multi time daily",
+      "times": ["12:00", "18:00"],
+      "days": ["daily"]
+    },
+    {
+      "comment": "4. Multi time with multiple days",
+      "times": ["20:00", "22:00"],
+      "days": ["saturday", "sunday"]
+    }
+  ]
+}
