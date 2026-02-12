@@ -7,7 +7,7 @@
   "button_title": "打开 TikTok",
   "button_url": "https://www.google.com",
   "unlock_delay": 5,
-  "daily_limit": 5,
+  "daily_limit": 50,
   "schedules": [
     {
       "comment": "1. Single time daily",
